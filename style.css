@@ -1,0 +1,51 @@
+.offer {
+    border: 2px solid rgb(236, 237, 244);
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #5f74c6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+h3,h4,p {
+    color: white;
+}
+
+.main-card {
+    border: 3px solid black;
+    width: 180px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.card-title {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: auto;
+    gap: 10px;
+    max-width: 1200px;
+    margin: auto;
+
+
+}
+ .cards img {
+    width: 100%;
+    height: auto;
+ }
+
+ .cards img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+ }
